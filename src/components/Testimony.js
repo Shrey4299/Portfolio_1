@@ -48,10 +48,12 @@ const data = [
 ]
 function Testimony() {
   return (
-    <section className="h-screen   px-28 py-10  mb-28"  id="experience">
+    <section className="h-screen  px-5  md:px-28 py-10  mb-28"  id="experience">
+
+   
     
 
-      <div className="flex flex-col items-center mb-40">
+      <div className="flex flex-col items-center  my-20">
         <div className="text-slate-300 text-sm">
       <h5>Review from clients</h5>
          
@@ -63,7 +65,7 @@ function Testimony() {
       </div>
 
 
-      <Swiper className="w-[40%] pb-16" 
+      <Swiper className="w-full md:w-[40%] mx-auto  pb-16" 
       
       modules={[Pagination]}
       spaceBetween={40}
